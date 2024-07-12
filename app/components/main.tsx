@@ -13,7 +13,7 @@ export function Main() {
         alt=""
         width={400}
         height={600}
-        className=" my-16 lg:pb-24 pb-0 lg:w-[400px] lg:h-[600px] w-[200px] h-[300px] mx-auto"
+        className=" mt-6 mb-16 lg:pb-24 pb-0 lg:w-[400px] lg:h-[600px] w-[250px] h-[300px] mx-auto"
       />
     </div>
   );
