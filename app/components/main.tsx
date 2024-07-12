@@ -9,7 +9,7 @@ export function Main() {
         Gambar Alat
       </h1>
       <Image
-        src={"/assets/images/WEB.png"}
+        src={"/assets/images/alat.png"}
         alt=""
         width={400}
         height={600}
