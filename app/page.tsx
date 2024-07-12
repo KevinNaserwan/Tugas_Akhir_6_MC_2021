@@ -4,10 +4,12 @@ import Navbar from "./components/navbar";
 
 export default function Home() {
   return (
-    <main className=" relative flex min-h-screen flex-col items-center  overflow-clip mx-auto lg:p-24 p-10">
+    <main className=" relative flex min-h-screen flex-col items-center  overflow-clip mx-auto   bg-blue-500">
       <Hero />
-      <Navbar />
-      <Main />
+      <div className=" bg-white max-h-screen w-full flex flex-col justify-start pt-16 items-center">
+        <Navbar />
+        <Main />
+      </div>
     </main>
   );
 }

@@ -4,8 +4,8 @@ import { Spotlight } from "./ui/spotlight";
 
 const Hero = () => {
   return (
-    <div className="">
-      <div className="">
+    <div className=" lg:p-20 p-10">
+      {/* <div className="">
         <Spotlight
           className=" -top-40 -left-10 md:-left-32 md:-top-20 h-screen"
           fill="white"
@@ -15,7 +15,7 @@ const Hero = () => {
           fill="purple"
         />
         <Spotlight className=" top-28 left-80 h-[80vh] w-[50vw]" fill="blue" />
-      </div>
+      </div> */}
       <div className=" relative z-20  flex flex-row items-center justify-center lg:gap-11">
         <h1 className=" font-bold lg:text-6xl text-xl text-white">
           Alat Uji Tarik Non Logam
